@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy New Year Divya ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Animated Background -->
+  <div class="bg"></div>
+
+  <div class="container">
+
+    <!-- 🔐 LOCK SCREEN -->
+    <div id="lockScreen">
+      <h1>🔐 Private Surprise</h1>
+      <p>Only for my wife ❤️</p>
+
+      <input 
+        type="password" 
+        id="password" 
+        placeholder="Enter Password"
+      >
+
+      <button onclick="unlock()">Unlock 💖</button>
+
+      <p id="error"></p>
+    </div>
+
+    <!-- 💖 MAIN CONTENT (Hidden until password) -->
+    <div id="content" class="hidden">
+
+      <h1 class="title">🎆 Happy New Year 🎆</h1>
+      <h2 class="name">Divya ❤️</h2>
+
+      <div class="poetry">
+        <p>
+          Tum sirf meri wife nahi ho,<br>
+          Tum meri <b>dua</b>, meri <b>taqdeer</b>, meri <b>duniya</b> ho 💖
+        </p>
+
+        <p>
+          Har saal badalta hai,<br>
+          Waqt guzar jaata hai,<br>
+          Par ek cheez kabhi nahi badlegi —<br>
+          <b>Meri mohabbat tumhare liye</b> 🌹
+        </p>
+
+        <p>
+          <i>
+            Tum meri zindagi ka wo khwab ho<br>
+            Jo haqeeqat ban kar meri baahon mein hai ❤️
+          </i>
+        </p>
+
+        <p class="urdu">
+          تم میری زندگی کی وہ خوشبو ہو<br>
+          جو ہر سانس میں بس گئی ہے 💫
+        </p>
+
+        <p class="english">
+          You are not just my wife,<br>
+          You are my forever, my home, my love 💍
+        </p>
+      </div>
+
+      <button class="loveBtn" onclick="showFinal()">
+        One Last Surprise 💌
+      </button>
+
+      <div id="final" class="hidden">
+        <h3>💖 I Love You Divya 💖</h3>
+        <p>
+          2026 ho ya zindagi ka har saal,<br>
+          <b>Main tumhare saath rehna chahta hoon — hamesha ❤️</b>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
